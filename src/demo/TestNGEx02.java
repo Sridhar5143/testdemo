@@ -17,7 +17,7 @@ public class TestNGEx02 {
 	@AfterMethod
 	public void refreshPg(){
 		System.out.println("To refresh the page after each validation");
-		System.out.println("To refresh the page after each validation");
+		
 	}
 	
 	@Test (priority=1)

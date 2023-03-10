@@ -10,6 +10,8 @@ public class TestNGEx02 {
 	@BeforeClass
 	public void setUp(){
 		System.out.println("To initialize browser and to open URL");
+		System.out.println("To initialize browser and to open URL");
+		System.out.println("To initialize browser and to open URL");
 	}
 	
 	@AfterMethod

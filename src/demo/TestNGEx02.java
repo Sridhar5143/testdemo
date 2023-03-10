@@ -10,12 +10,13 @@ public class TestNGEx02 {
 	@BeforeClass
 	public void setUp(){
 		System.out.println("To initialize browser and to open URL");
-		System.out.println("To initialize browser and to open URL");
-		System.out.println("To initialize browser and to open URL");
+		
+		
 	}
 	
 	@AfterMethod
 	public void refreshPg(){
+		System.out.println("To refresh the page after each validation");
 		System.out.println("To refresh the page after each validation");
 	}
 	

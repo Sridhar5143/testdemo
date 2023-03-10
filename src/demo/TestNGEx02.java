@@ -23,7 +23,7 @@ public class TestNGEx02 {
 	@Test (priority=1)
 	public void userReg(){
 		System.out.println("Validate user Registration");
-		System.out.println("Validate user Registration");
+		
 	}
 	@Test (priority=2)
 	public void userLogin(){
